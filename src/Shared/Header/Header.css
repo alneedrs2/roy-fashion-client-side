@@ -1,15 +1,3 @@
-.link {
-    text-decoration: none;
-    margin-left: 25px;
-    font-size: 20px;
-    transition: color ease-in-out 300ms;
-    color: #1899148c;
-  }
-  
-  .active-link {
-    text-decoration: none;
-    margin-left: 15px;
-    font-size: 20px;
-    transition: color ease-in-out 300ms;
-    color: #0cda2e;
+.nav-background {
+    background-color: rgba(255, 182, 193, 0.603);
   }
