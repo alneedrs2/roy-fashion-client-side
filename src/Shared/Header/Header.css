@@ -1,3 +1,8 @@
 .nav-background {
     background-color: rgba(255, 182, 193, 0.603);
   }
+.nav-brand{
+    font-family: cursive;
+    color: rgb(206, 56, 81);
+    font-weight: 700;
+}
