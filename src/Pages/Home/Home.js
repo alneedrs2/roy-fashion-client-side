@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import banner1 from "../../images/banner/banner-1.jpg";
 import banner2 from "../../images/banner/banner-2.jpg";
+import Products from "../Products/Products";
 import "./Home.css";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
           <img className="d-block w-100" src={banner2} alt="Second slide" />
         </Carousel.Item>
       </Carousel>
+      <Products></Products>
     </div>
   );
 };

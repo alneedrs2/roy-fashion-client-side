@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "name": "Silk Saree",
+    "description": "A NEW BRIDAL SAREE. PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES OR YOUR MONITOR SETTINGS",
+    "price": "59.87",
+    "quantity": "2",
+    "supplier": "Chennai Silk Shop",
+    "img": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": "2",
+    "name": "White Bridal Dress",
+    "description": "THIS IS A BRAND BRIDAL DRESS.PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES.",
+    "price": "130.50",
+    "quantity": "1",
+    "supplier": "Western Fashion Shop",
+    "img": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+  },
+  {
+    "id": "3",
+    "name": "Silk Saree",
+    "description": "BRIDAL SAREE.PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES OR YOUR MONITOR SETTINGS",
+    "price": "29.87",
+    "quantity": "2",
+    "supplier": "Chennai Silk Shop",
+    "img": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": "4",
+    "name": "Silk Saree",
+    "description": "BRIDAL SAREE.PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES OR YOUR MONITOR SETTINGS",
+    "price": "29.87",
+    "quantity": "2",
+    "supplier": "Chennai Silk Shop",
+    "img": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": "5",
+    "name": "Silk Saree",
+    "description": "BRIDAL SAREE.PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES OR YOUR MONITOR SETTINGS",
+    "price": "29.87",
+    "quantity": "2",
+    "supplier": "Chennai Silk Shop",
+    "img": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": "6",
+    "name": "Silk Saree",
+    "description": "BRIDAL SAREE.PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES OR YOUR MONITOR SETTINGS",
+    "price": "29.87",
+    "quantity": "2",
+    "supplier": "Chennai Silk Shop",
+    "img": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": "7",
+    "name": "Silk Saree",
+    "description": "BRIDAL SAREE.PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES OR YOUR MONITOR SETTINGS",
+    "price": "29.87",
+    "quantity": "2",
+    "supplier": "Chennai Silk Shop",
+    "img": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": "8",
+    "name": "Silk Saree",
+    "description": "BRIDAL SAREE.PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES OR YOUR MONITOR SETTINGS",
+    "price": "29.87",
+    "quantity": "2",
+    "supplier": "Chennai Silk Shop",
+    "img": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": "9",
+    "name": "Silk Saree",
+    "description": "BRIDAL SAREE.PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES OR YOUR MONITOR SETTINGS",
+    "price": "29.87",
+    "quantity": "2",
+    "supplier": "Chennai Silk Shop",
+    "img": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": "10",
+    "name": "Silk Saree",
+    "description": "BRIDAL SAREE.PRODUCT COLOR MAY SLIGHTLY VARY DUE TO PHOTOGRAPHIC LIGHTING SOURCES OR YOUR MONITOR SETTINGS",
+    "price": "29.87",
+    "quantity": "2",
+    "supplier": "Chennai Silk Shop",
+    "img": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  }
+]
