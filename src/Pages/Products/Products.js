@@ -7,9 +7,9 @@ const Products = () => {
   const [products, setProducts] = useProducts();
   return (
     <div id="inventory" className="container">
-      <h1 className="product-title text-center m-5">Inventory</h1>
+      <h1 className="product-title text-center mt-5">Inventory</h1>
       <div className="row mt-3">
-        {products.slice(0,6).map((product) => (
+        {products.slice(0,10).map((product) => (
              <SingleProduct key={ product.key} product = {product}></SingleProduct> 
         ))}
       </div>
