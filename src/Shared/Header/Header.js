@@ -30,6 +30,14 @@ const Header = () => {
               About Me
             </Nav.Link>
           </Nav>
+          <div className="d-flex">
+            <Nav.Link className="text-dark" as={Link} to="/login" active>
+              Login
+            </Nav.Link>
+            <Nav.Link as={Link} className="text-dark" to="/register" active>
+              Register
+            </Nav.Link>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
