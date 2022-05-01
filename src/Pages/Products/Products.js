@@ -9,8 +9,8 @@ const Products = () => {
     <div id="inventory" className="container">
       <h1 className="product-title text-center mt-5">Inventory</h1>
       <div className="row mt-3">
-        {products.slice(0,10).map((product) => (
-             <SingleProduct key={ product.key} product = {product}></SingleProduct> 
+        {products.slice(0,6).map((product) => (
+             <SingleProduct key={ product._id} product = {product}></SingleProduct> 
         ))}
       </div>
     </div>

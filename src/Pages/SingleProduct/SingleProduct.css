@@ -8,3 +8,9 @@
     border-radius: 10px;
     height: 350px;
 }
+.card-btn{
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(224, 84, 107);
+}

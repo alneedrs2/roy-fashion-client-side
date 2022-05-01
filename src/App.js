@@ -2,8 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Blogs from "./Pages/Blogs/Blogs";
 import Home from "./Pages/Home/Home";
-import Products from "./Pages/Products/Products";
-
+import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 import Footer from "./Shared/Footer/Footer";
 import Header from "./Shared/Header/Header";
 import NotFound from "./Shared/NotFound/NotFound";
@@ -15,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
-        <Route path="home#inventory" element={<Products></Products>}></Route>
+        <Route path="/inventory/:inventoryId" element={<ProductDetail></ProductDetail>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
