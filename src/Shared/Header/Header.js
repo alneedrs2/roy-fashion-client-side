@@ -1,6 +1,6 @@
 import { signOut } from "firebase/auth";
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Dropdown, Nav, Navbar } from "react-bootstrap";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import auth from "../../firebase.init";
@@ -39,13 +39,30 @@ const Header = () => {
             </Nav.Link>
           </Nav>
           <div className="d-flex">
-          {user ? (
-              <button
-                className="btn btn-link text-decoration-none text-dark"
-                onClick={handleSignOut}
-              >
-                Sign Out
-              </button>
+            {user ? (
+              <div className="d-flex justify-center align-items-center">
+                <Dropdown>
+                  <Dropdown.Toggle variant="" id="dropdown-basic">
+                    See More
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/manageItems">Manage Items</Dropdown.Item>
+                    <Dropdown.Item href="#/addItems">
+                      Add Item
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/myItems">
+                      My Items
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+                <button
+                  className="btn btn-link text-decoration-none text-dark"
+                  onClick={handleSignOut}
+                >
+                  Sign Out
+                </button>
+              </div>
             ) : (
               <Nav.Link className="text-dark" as={Link} to="/login" active>
                 Login

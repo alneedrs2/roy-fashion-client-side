@@ -3,6 +3,7 @@ import "./App.css";
 import Blogs from "./Pages/Blogs/Blogs";
 import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
+import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 import Register from "./Pages/Register/Register";
 import Footer from "./Shared/Footer/Footer";
@@ -16,7 +17,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
-        <Route path="/inventory/:inventoryId" element={<ProductDetail></ProductDetail>}></Route>
+        <Route
+          path="/inventory/:inventoryId"
+          element={
+            <RequireAuth>
+              <ProductDetail></ProductDetail>
+            </RequireAuth>
+          }
+        ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
