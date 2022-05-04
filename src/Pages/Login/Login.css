@@ -1,13 +1,6 @@
-.form-container{
-    border-radius: 5px;
-   background-color: rgba(255, 243, 243, 0.534);
-   width: 50%;
-   padding: 10px;
-}
-.form-btn{
+.login-btn{
+    background-color: rgb(248, 95, 121);
+    padding: 5px;
     border: 1px solid lightpink;
-    width: 100%;
     border-radius: 5px;
-    padding: 5px 10px;
-    background-color: rgba(236, 87, 112, 0.582);
 }
