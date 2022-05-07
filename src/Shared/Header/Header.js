@@ -47,13 +47,11 @@ const Header = () => {
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu>
-                    <Dropdown.Item href="#/manageItems">Manage Items</Dropdown.Item>
-                    <Dropdown.Item href="#/addItems">
-                      Add Item
+                    <Dropdown.Item as={Link} to="/manageItem">
+                      Manage Items
                     </Dropdown.Item>
-                    <Dropdown.Item href="#/myItems">
-                      My Items
-                    </Dropdown.Item>
+                    <Dropdown.Item as={Link} to="/addItem">Add Item</Dropdown.Item>
+                    <Dropdown.Item href="#/myItems">My Items</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
                 <button

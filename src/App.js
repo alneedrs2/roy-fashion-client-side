@@ -1,9 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import AddItems from "./Pages/AddItem/AddItem";
 import Blogs from "./Pages/Blogs/Blogs";
 import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
+import ManageItem from "./Pages/ManageItem/ManageItem";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 import Register from "./Pages/Register/Register";
 import Footer from "./Shared/Footer/Footer";
@@ -22,6 +24,22 @@ function App() {
           element={
             <RequireAuth>
               <ProductDetail></ProductDetail>
+            </RequireAuth>
+          }
+        ></Route>
+        <Route
+          path="/addItem"
+          element={
+            <RequireAuth>
+              <AddItems></AddItems>
+            </RequireAuth>
+          }
+        ></Route>
+        <Route
+          path="/manageItem"
+          element={
+            <RequireAuth>
+              <ManageItem></ManageItem>
             </RequireAuth>
           }
         ></Route>

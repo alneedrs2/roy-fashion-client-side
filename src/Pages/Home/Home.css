@@ -2,3 +2,9 @@
     color: rgb(228, 107, 127);
     font-size: 40px;
 }
+.manage-btn{
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    background-color: rgb(228, 107, 127);
+    padding: 5px;
+}
