@@ -11,7 +11,7 @@ const ProductDetail = () => {
   const { register } = useForm();
 
   useEffect(() => {
-    const url = `http://localhost:5000/product/${inventoryId}`;
+    const url = `https://warm-crag-11477.herokuapp.com/product/${inventoryId}`;
 
     fetch(url)
       .then((res) => res.json())
@@ -35,7 +35,7 @@ const ProductDetail = () => {
         quantity: quantity,
       };
 
-      const url = `http://localhost:5000/product/${inventoryId}`;
+      const url = `https://warm-crag-11477.herokuapp.com/product/${inventoryId}`;
       fetch(url, {
         method: "PUT",
         headers: {
@@ -72,7 +72,7 @@ const ProductDetail = () => {
         supplier: item.supplier,
         quantity: quantity,
       };
-      const url = `http://localhost:5000/product/${inventoryId}`;
+      const url = `https://warm-crag-11477.herokuapp.com/product/${inventoryId}`;
       fetch(url, {
         method: "PUT",
         headers: {
