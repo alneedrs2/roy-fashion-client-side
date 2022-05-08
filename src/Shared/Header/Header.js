@@ -51,7 +51,7 @@ const Header = () => {
                       Manage Items
                     </Dropdown.Item>
                     <Dropdown.Item as={Link} to="/addItem">Add Item</Dropdown.Item>
-                    <Dropdown.Item href="#/myItems">My Items</Dropdown.Item>
+                    <Dropdown.Item as={Link} to="/myItem">My Items</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
                 <button

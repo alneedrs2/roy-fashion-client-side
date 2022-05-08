@@ -5,10 +5,10 @@ import { useNavigate, useParams } from "react-router-dom";
 import "./ProductDetail.css";
 
 const ProductDetail = () => {
-  const { register } = useForm();
   const { inventoryId } = useParams();
   const [item, setItem] = useState({});
   const navigate = useNavigate();
+  const { register } = useForm();
 
   useEffect(() => {
     const url = `http://localhost:5000/product/${inventoryId}`;
@@ -48,8 +48,43 @@ const ProductDetail = () => {
           setItem(productInfo);
         });
       navigate("/inventory/" + inventoryId);
-    }else{
-      alert ('This Product is Sold Out')
+    } else {
+      alert("This Product is Sold Out");
+    }
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    let currentQuantity = event.target.quantity.value;
+    let currentValue = parseInt(currentQuantity);
+    let quantityParse = parseInt(item.quantity);
+    let quantity = quantityParse + currentValue;
+
+    event.target.quantity.value = "";
+
+    if (quantity > 0) {
+      const productInfo = {
+        name: item.name,
+        description: item.description,
+        price: item.price,
+        img: item.img,
+        supplier: item.supplier,
+        quantity: quantity,
+      };
+      const url = `http://localhost:5000/product/${inventoryId}`;
+      fetch(url, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(productInfo),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          setItem(productInfo);
+        });
+      navigate("/inventory/" + inventoryId);
     }
   };
 
@@ -73,7 +108,10 @@ const ProductDetail = () => {
           Delivered
         </button>
       </Card>
-      <form className="d-flex flex-column mt-3 w-50 m-auto">
+      <form
+        onSubmit={handleSubmit}
+        className="d-flex flex-column mt-3 w-50 m-auto"
+      >
         <input
           className="mb-3"
           placeholder="Quantity"
