@@ -5,7 +5,7 @@ import SingleProduct from "../SingleProduct/SingleProduct";
 import "./Products.css";
 
 const Products = () => {
-  const [products, setProducts] = useProducts();
+  const [products] = useProducts();
   return (
     <div className="text-center">
       <div id="inventory" className="container">
