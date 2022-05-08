@@ -4,6 +4,8 @@ import banner1 from "../../images/banner/banner-1.jpg";
 import banner2 from "../../images/banner/banner-2.jpg";
 import Products from "../Products/Products";
 import "./Home.css";
+import MoreShop from "./MoreShop/MoreShop";
+import SpecialFeatures from "./SpecialFeatures/SpecialFeatures";
 
 const Home = () => {
   return (
@@ -19,7 +21,9 @@ const Home = () => {
           <img className="d-block w-100" src={banner2} alt="Second slide" />
         </Carousel.Item>
       </Carousel>
+      <SpecialFeatures></SpecialFeatures>
       <Products></Products>
+      <MoreShop></MoreShop>
     </div>
   );
 };
